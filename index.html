@@ -9,15 +9,55 @@
   <meta name="author" content="Mystrowin">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://mystrowin.com/">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" href="mystrowin-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Mystrowin">
   <meta property="og:title" content="Mystrowin — Windows Software, Systems & Arqivexa">
   <meta property="og:description" content="Mystrowin builds Windows software and systems projects, including Arqivexa, plus filesystem, compression, and runtime experiments.">
   <meta property="og:url" content="https://mystrowin.com/">
-  <meta property="og:image" content="https://mystrowin.com/og-image.webp">
+  <meta property="og:image" content="https://mystrowin.com/mystrowin-logo.svg">
   <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mystrowin.com/#website",
+        "url": "https://mystrowin.com/",
+        "name": "Mystrowin",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://mystrowin.com/#profile",
+        "url": "https://mystrowin.com/",
+        "name": "Mystrowin — Windows Software & Systems Projects",
+        "isPartOf": {"@id": "https://mystrowin.com/#website"},
+        "mainEntity": {"@id": "https://mystrowin.com/#developer"}
+      },
+      {
+        "@type": "Person",
+        "@id": "https://mystrowin.com/#developer",
+        "name": "Mystrowin",
+        "url": "https://mystrowin.com/",
+        "sameAs": ["https://github.com/Mystrowin"],
+        "knowsAbout": ["Windows software","systems software","filesystems","compression","runtime architecture","experimental computing","Arqivexa"]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://arqivexa.mystrowin.com/#software",
+        "name": "Arqivexa",
+        "url": "https://arqivexa.mystrowin.com/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Windows 11",
+        "creator": {"@id": "https://mystrowin.com/#developer"}
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 <header class="site-header">
@@ -46,7 +86,7 @@
       </div>
     </div>
     <div class="logo-card">
-      <img src="mystrowin-logo.webp" width="1024" height="1024" alt="Mystrowin metallic skull emblem and wordmark">
+      <img src="mystrowin-logo.svg" width="1024" height="1024" alt="Mystrowin metallic skull emblem and wordmark">
     </div>
   </div>
 
@@ -61,7 +101,7 @@
     <div class="shell">
       <div class="section-heading">
         <div><span class="index-badge">01</span><h2>Explore Mystrowin</h2></div>
-        <p>Each part of the site now has its own page and purpose instead of acting like a detached homepage section.</p>
+        <p>Explore the software, systems work, and technical direction behind Mystrowin through dedicated project and developer pages.</p>
       </div>
       <div class="destination-grid">
         <article class="destination">
