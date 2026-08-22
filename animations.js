@@ -1,17 +1,3 @@
-(() => {
-  const googleTag = document.createElement('script');
-  googleTag.async = true;
-  googleTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-YJBJCQDLHE';
-  document.head.appendChild(googleTag);
-
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || function gtag() {
-    window.dataLayer.push(arguments);
-  };
-
-  window.gtag('js', new Date());
-  window.gtag('config', 'G-YJBJCQDLHE');
-})();
 
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
