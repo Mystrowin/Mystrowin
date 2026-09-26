@@ -1,0 +1,65 @@
+/* Homepage clarity and keyboard access. Kept separate from shared page styles. */
+.home-title {
+  max-width: 780px;
+  white-space: normal;
+  text-transform: none;
+  font-size: clamp(3.25rem, 5.7vw, 5.8rem);
+  line-height: 0.98;
+}
+
+.home-hero .btn {
+  gap: 0.45rem;
+}
+
+.home-lead code {
+  padding: 0.08rem 0.28rem;
+  border: 1px solid rgba(198, 132, 247, 0.18);
+  border-radius: 5px;
+  color: #dec1fa;
+  background: rgba(160, 65, 238, 0.07);
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.fact a {
+  color: #eee8f5;
+  text-decoration: underline;
+  text-decoration-color: rgba(201, 155, 234, 0.55);
+  text-underline-offset: 3px;
+}
+
+.fact a:hover {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: 12px;
+  z-index: 100;
+  transform: translateY(-180%);
+  padding: 10px 14px;
+  border: 1px solid rgba(198, 132, 247, 0.5);
+  border-radius: 8px;
+  background: #f4eff8;
+  color: #100719;
+  font-weight: 800;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid #d19cff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .home-title {
+    font-size: clamp(3rem, 14vw, 4.6rem);
+    line-height: 1.02;
+  }
+}
