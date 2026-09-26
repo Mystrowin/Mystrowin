@@ -1,0 +1,20 @@
+name: Validate public crawl paths
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+      - name: Validate robots, sitemap, canonicals, and crawlable links
+        run: python3 .github/scripts/validate_crawl.py . https://mystrowin.com
