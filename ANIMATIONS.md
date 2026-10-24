@@ -1,18 +1,11 @@
-# Mystrowin site motion system
+# Mystrowin motion system
 
-The site uses progressive-enhancement animations with no third-party libraries.
+The portfolio uses CSS transitions and small progressive-enhancement animations without third-party libraries.
 
-Included:
+- Subtle page and header entrance motion
+- Scroll-triggered reveal for project, focus, and link cards
+- Pointer-local glow on cards
+- Hover feedback for navigation and actions
 - Cross-document View Transitions where supported
-- Header and hero entrance motion
-- Slow Mystrowin logo float/glow
-- Scroll-triggered reveals with small sibling staggering
-- Navigation underline/state motion
-- Card hover lift and pointer-local glow
-- Button sheen/press feedback
-- Decorative section-heading line reveals
 
-Accessibility:
-`prefers-reduced-motion: reduce` disables decorative animation and transitions.
-
-If JavaScript is disabled, all content remains visible.
+The site respects `prefers-reduced-motion: reduce`. If JavaScript is disabled, all content remains visible.
