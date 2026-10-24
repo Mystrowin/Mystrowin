@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#090313">
   <title>Projects — Mystrowin</title>
-  <meta name="description" content="Mystrowin software projects, including Arqivexa and Windows systems work.">
+  <meta name="description" content="A balanced index of Mystrowin software, systems, privacy, and research projects at different stages.">
   <meta name="author" content="Mystrowin">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://mystrowin.com/projects.html">
@@ -14,11 +14,10 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Mystrowin">
   <meta property="og:title" content="Projects — Mystrowin">
-  <meta property="og:description" content="Mystrowin software projects, including Arqivexa and Windows systems work.">
+  <meta property="og:description" content="A balanced index of Mystrowin software, systems, privacy, and research projects at different stages.">
   <meta property="og:url" content="https://mystrowin.com/projects.html">
   <meta property="og:image" content="https://mystrowin.com/mystrowin-logo.svg">
   <meta name="twitter:card" content="summary_large_image">
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJBJCQDLHE"></script>
   <script>
@@ -29,23 +28,94 @@
   </script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="shell header-inner">
-    <a class="brand" href="index.html" aria-label="Mystrowin home"><span class="brand-mark" aria-hidden="true"></span><span>Mystrowin</span></a>
+    <a class="brand" href="index.html" aria-label="Mystrowin home">
+      <span class="brand-mark" aria-hidden="true"></span><span>Mystrowin</span>
+    </a>
     <nav class="nav-shell" aria-label="Primary navigation">
-      <ul><li><a href="index.html">Home</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="focus.html">Focus</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Links</a></li><li><a rel="me" href="https://github.com/Mystrowin?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=projects_github" referrerpolicy="strict-origin-when-cross-origin">GitHub ↗</a></li></ul>
+      <ul><li><a href="index.html">Home</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="https://research.mystrowin.com/?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=nav_research" rel="noopener noreferrer">Research ↗</a></li><li><a href="focus.html">Focus</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Links</a></li>
+      <li><a rel="me" href="https://github.com/Mystrowin?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=nav_github" referrerpolicy="strict-origin-when-cross-origin">GitHub ↗</a></li></ul>
     </nav>
   </div>
 </header>
-<main>
-  <div class="page-hero"><div class="shell"><div class="crumb"><a href="index.html">Home</a><span>/</span>Projects</div><div class="page-hero-grid"><div><h1 class="page-title">Projects</h1><p class="page-intro">Software and systems work developed under Mystrowin, with Arqivexa as the primary active project.</p></div><aside class="hero-aside"><span class="hero-aside-label">Current emphasis</span><strong>One project, developed deeply.</strong><p>Arqivexa is the main active software project rather than one item in a scattered collection.</p></aside></div></div></div>
-  <section class="section"><div class="shell"><div class="project-spotlight">
-    <article class="project-main"><span class="project-tag">Featured · Windows utility · 0.6.0 Stable</span><h2>Arqivexa</h2><p>Arqivexa is a Windows 11 archive tool for working with supported <code>.cfs</code> files through File Explorer. Open the archive as a managed workspace, browse files on demand, and save supported changes back into the same archive. Writable use targets local NTFS storage; it is not a system-wide replacement for ordinary folders.</p><div class="project-meta"><div class="meta-box"><small>Platform</small><strong>Windows 11 x64</strong></div><div class="meta-box"><small>Archive extension</small><strong>.cfs</strong></div><div class="meta-box"><small>Explorer integration</small><strong>Windows ProjFS</strong></div><div class="meta-box"><small>Writable storage</small><strong>Local NTFS</strong></div></div><div class="actions"><a class="btn primary" href="https://arqivexa.mystrowin.com/">Explore Arqivexa</a><a class="btn" href="https://arqivexa.mystrowin.com/download.html">Get the current release</a><a class="btn" rel="me" href="https://github.com/Mystrowin/Arqivexa">View GitHub</a></div></article>
-    <aside class="project-side"><span class="project-tag">What it explores</span><h3>Compressed data as a workspace</h3><ul><li>Explorer-first archive access</li><li>On-demand file hydration</li><li>Persistent supported edits</li><li>Compression and filesystem behavior</li><li>Windows-native integration</li></ul><a class="btn" href="focus.html">See technical focus →</a></aside>
-  </div></div></section>
+<main id="main">
+  <section class="page-intro shell">
+    <div class="breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span>Projects</div>
+    <div class="page-title-row">
+      <div><p class="eyebrow"><span class="eyebrow-dot"></span> Portfolio index</p><h1 class="page-title">Projects</h1><p class="page-lead">A portfolio of software, systems work, and research. Each entry is presented at its current stage, with links to its public source or publication where available.</p></div>
+      <aside class="status-key"><span class="panel-kicker">Read the labels</span><div><i class="status-dot released"></i><span>Software</span></div><div><i class="status-dot research"></i><span>Research</span></div><div><i class="status-dot early"></i><span>Early exploration</span></div></aside>
+    </div>
+  </section>
+  <section class="section projects-index" aria-label="All Mystrowin projects">
+    <div class="shell">
+      <div class="project-grid project-grid--detail"><article class="project-card project-card--detail" id="adaptive-workflow">
+    <div class="project-card-head">
+      <span class="project-glyph" aria-hidden="true">AW</span>
+      <span class="project-kind">Research · Published evaluation</span>
+    </div>
+    <h3>Adaptive Workflow</h3>
+    <p>Research on a verification-gated local coding-model cascade evaluated across 542 EvalPlus tasks. Because the same EvalPlus outcome participates in routing and defines the primary endpoint, the paper measures tier complementarity under oracle test gating; it does not establish independent deployment verification.</p>
+    <div class="project-stage"><span>Project stage</span><strong>Research</strong></div>
+    <div class="project-links"><a href="https://zenodo.org/records/22311263?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_adaptive_paper" target="_blank" rel="noopener noreferrer">Read the paper<span aria-hidden="true"> ↗</span></a><a href="https://research.mystrowin.com/?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_adaptive_research#papers" target="_blank" rel="noopener noreferrer">Research portal<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Mystrowin/adaptive-workflow-research?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_adaptive_repo" target="_blank" rel="noopener noreferrer">Reproducibility repository<span aria-hidden="true"> ↗</span></a></div>
+  </article>
+<article class="project-card project-card--detail" id="arqivexa">
+    <div class="project-card-head">
+      <span class="project-glyph" aria-hidden="true">A</span>
+      <span class="project-kind">Software · Windows archive workspace</span>
+    </div>
+    <h3>Arqivexa</h3>
+    <p>A Windows 11 archive workspace for supported .cfs files. ProjFS presents the archive structure in File Explorer and supplies files on demand; supported edits can be saved back. Writable workflows target local NTFS. The current stable release is 0.6.0.</p>
+    <div class="project-stage"><span>Project stage</span><strong>Software</strong></div>
+    <div class="project-links"><a href="https://arqivexa.mystrowin.com/?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_arqivexa_site" target="_blank" rel="noopener noreferrer">Open product site<span aria-hidden="true"> ↗</span></a><a href="https://arqivexa.mystrowin.com/download.html?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_arqivexa_download" target="_blank" rel="noopener noreferrer">Get the release<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Mystrowin/Arqivexa?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_arqivexa_repo" target="_blank" rel="noopener noreferrer">Source repository<span aria-hidden="true"> ↗</span></a></div>
+  </article>
+<article class="project-card project-card--detail" id="ehmn">
+    <div class="project-card-head">
+      <span class="project-glyph" aria-hidden="true">EH</span>
+      <span class="project-kind">Research · Concept paper</span>
+    </div>
+    <h3>Evolving Hierarchical Modular Intelligence Networks</h3>
+    <p>A proposed architecture for evolving, hierarchical, modular intelligence networks. It is presented as a concept paper; it has no implementation or experimental results.</p>
+    <div class="project-stage"><span>Project stage</span><strong>Concept paper</strong></div>
+    <div class="project-links"><a href="https://zenodo.org/records/21799702?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_ehmn_paper" target="_blank" rel="noopener noreferrer">Read the paper<span aria-hidden="true"> ↗</span></a><a href="https://research.mystrowin.com/?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=project_ehmn_research#papers" target="_blank" rel="noopener noreferrer">Research portal<span aria-hidden="true"> ↗</span></a></div>
+  </article>
+<article class="project-card project-card--detail" id="exposa">
+    <div class="project-card-head">
+      <span class="project-glyph" aria-hidden="true">EX</span>
+      <span class="project-kind">Privacy · In development</span>
+    </div>
+    <h3>Exposa / DataFootprint</h3>
+    <p>A privacy project exploring how people can identify public data brokers that may hold their information, using a transparent, rules-based approach. The project description says it does not store personal data. Public implementation and verification materials are not available yet.</p>
+    <div class="project-stage"><span>Project stage</span><strong>In development</strong></div>
+    <div class="project-links"><a href="projects.html#exposa">Project status<span aria-hidden="true"> ↗</span></a></div>
+  </article>
+<article class="project-card project-card--detail" id="universal-runtime-launcher">
+    <div class="project-card-head">
+      <span class="project-glyph" aria-hidden="true">URL</span>
+      <span class="project-kind">Runtime tooling · Early stage</span>
+    </div>
+    <h3>Universal Runtime Launcher</h3>
+    <p>An early-stage runtime and launch tooling project in the broader Mystrowin portfolio. Public specifications and a standalone project page are not available yet.</p>
+    <div class="project-stage"><span>Project stage</span><strong>Early stage</strong></div>
+    <div class="project-links"><a href="projects.html#universal-runtime-launcher">Project status<span aria-hidden="true"> ↗</span></a></div>
+  </article></div>
+      <div class="portfolio-note"><span class="note-mark" aria-hidden="true">i</span><p>Projects are at different stages. A published paper, an active software release, and an early concept are not the same kind of result; each page links to the material available for that work.</p></div>
+    </div>
+  </section>
 </main>
-<footer><div class="shell footer-inner"><span>Copyright © 2026 Neeraj Pragnya Krishna Vasagiri. All rights reserved.</span><div class="footer-links"><a href="https://arqivexa.mystrowin.com/?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=projects_arqivexa_2" referrerpolicy="strict-origin-when-cross-origin">Arqivexa</a><a rel="me" href="https://github.com/Mystrowin?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=projects_github_3" referrerpolicy="strict-origin-when-cross-origin">GitHub</a></div></div></footer>
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <div class="footer-signoff"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>Mystrowin</span></a><span>Independent software, systems &amp; research.</span></div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="projects.html">Projects</a>
+      <a href="https://research.mystrowin.com/?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=footer_research">Research ↗</a>
+      <a rel="me" href="https://github.com/Mystrowin?utm_source=mystrowin.com&utm_medium=referral&utm_campaign=mystrowin_portfolio&utm_content=footer_github" referrerpolicy="strict-origin-when-cross-origin">GitHub ↗</a>
+    </nav>
+    <span class="copyright">Copyright © 2026 Neeraj Pragnya Krishna Vasagiri. All rights reserved.</span>
+  </div>
+</footer>
 <script src="animations.js" defer></script>
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8643089957db4d7aa582ad702f486113"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "8643089957db4d7aa582ad702f486113"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
